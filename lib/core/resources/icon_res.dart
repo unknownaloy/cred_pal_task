@@ -1,1 +1,1 @@
-const searchIcon = 'assets/icons/search.svg';
+const searchIcon = 'assets/svgs/search.svg';
