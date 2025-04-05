@@ -1,5 +1,6 @@
 import 'package:cred_pal_task/core/extensions/color_extensions.dart';
 import 'package:cred_pal_task/core/resources/color_res.dart';
+import 'package:cred_pal_task/core/resources/image_res.dart';
 import 'package:cred_pal_task/data/model/item_dto.dart';
 import 'package:flutter/material.dart';
 
@@ -89,6 +90,8 @@ class ItemCardUi extends StatelessWidget {
             left: 6,
             top: 6,
             child: Container(
+              padding: EdgeInsets.all(item.badgeImage != null ? 8 : 2),
+              alignment: Alignment.center,
               height: 50,
               width: 50,
               decoration: BoxDecoration(
@@ -102,6 +105,31 @@ class ItemCardUi extends StatelessWidget {
                   ),
                 ],
               ),
+              child:
+                  item.badgeImage != null
+                      ? Image.asset(rollOneBadge2)
+                      : Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Text(
+                            item.badgeData?.title ?? '',
+                            style: const TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w500,
+                              color: AppColor.lavenderBlue40,
+                            ),
+                          ),
+                          const SizedBox(height: 2),
+                          Text(
+                            item.badgeData?.subtitle ?? '',
+                            style: const TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w800,
+                              color: AppColor.blue10,
+                            ),
+                          ),
+                        ],
+                      ),
             ),
           ),
         ],
