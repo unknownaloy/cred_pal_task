@@ -24,3 +24,27 @@ final rollOneItems = <ItemDto>[
     badgeImage: rollOneBadge2,
   ),
 ];
+
+final rollTwoItems = <ItemDto>[
+  ItemDto(
+    imageUrl: rollTwoItem1,
+    itemName: 'Nokia G20',
+    itemPrice: 39780,
+    itemOriginalPrice: 88000,
+    badgeImage: rollTwoBadge1,
+  ),
+  ItemDto(
+    imageUrl: rollTwoItem2,
+    itemName: 'iPhone XS Max 4GB Smartphone',
+    itemPrice: 295999,
+    itemOriginalPrice: 315000,
+    badgeImage: rollTwoBadge2,
+  ),
+  ItemDto(
+    imageUrl: rollOneItem3,
+    itemName: 'Masterchef Pressure Pot',
+    itemPrice: 39780,
+    itemOriginalPrice: 88000,
+    badgeImage: rollTwoBadge2,
+  ),
+];

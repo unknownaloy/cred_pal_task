@@ -1,5 +1,5 @@
 import 'package:cred_pal_task/core/resources/color_res.dart';
-import 'package:cred_pal_task/data/roll_one_items.dart';
+import 'package:cred_pal_task/data/dummy_data.dart';
 import 'package:cred_pal_task/widgets/item_card_ui.dart';
 import 'package:cred_pal_task/widgets/persistent_header_ui.dart';
 import 'package:cred_pal_task/widgets/search_header_ui.dart';
@@ -43,6 +43,22 @@ class HomeScreen extends StatelessWidget {
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
                             final item = rollOneItems[index];
+                            return ItemCardUi(item: item);
+                          },
+                        ),
+                      ),
+                    ),
+
+                    const SizedBox(height: 26),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20, right: 13),
+                      child: SizedBox(
+                        height: 174,
+                        child: ListView.builder(
+                          itemCount: rollTwoItems.length,
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            final item = rollTwoItems[index];
                             return ItemCardUi(item: item);
                           },
                         ),

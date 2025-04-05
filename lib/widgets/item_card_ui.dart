@@ -2,6 +2,7 @@ import 'package:cred_pal_task/core/extensions/color_extensions.dart';
 import 'package:cred_pal_task/core/resources/color_res.dart';
 import 'package:cred_pal_task/core/resources/image_res.dart';
 import 'package:cred_pal_task/data/model/item_dto.dart';
+import 'package:cred_pal_task/util/currency_util.dart';
 import 'package:flutter/material.dart';
 
 class ItemCardUi extends StatelessWidget {
@@ -59,7 +60,7 @@ class ItemCardUi extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(horizontal: 14),
                       child: RichText(
                         text: TextSpan(
-                          text: '${item.itemPrice}',
+                          text: CurrencyUtil.formatCurrency(item.itemPrice),
                           style: const TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.w800,
@@ -107,7 +108,7 @@ class ItemCardUi extends StatelessWidget {
               ),
               child:
                   item.badgeImage != null
-                      ? Image.asset(rollOneBadge2)
+                      ? Image.asset(item.badgeImage!)
                       : Column(
                         mainAxisSize: MainAxisSize.min,
                         children: [
