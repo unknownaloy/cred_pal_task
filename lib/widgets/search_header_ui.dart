@@ -23,7 +23,7 @@ class SearchHeaderUi extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(20)),
               ),
               prefixIcon: const Padding(
-                padding: EdgeInsets.all(10),
+                padding: EdgeInsets.all(12),
                 child: SvgIconUi(searchIcon, height: 18),
               ),
               hintText: 'Search for products or stores',
@@ -32,6 +32,7 @@ class SearchHeaderUi extends StatelessWidget {
                 color: AppColor.lavenderBlue20,
               ),
               constraints: const BoxConstraints(maxHeight: 40),
+              isDense: true,
             ),
           ),
         ),
