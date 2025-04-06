@@ -24,7 +24,7 @@ UI-focused Implementation
 
 ## Download App
 
-[Download CredPal Task App](https://github.com/unknownaloy/cred_pal_task/raw/master/credpal_app/credpal_app.zip)
+[Download CredPal Task App](https://github.com/unknownaloy/cred_pal_task/raw/main/credpal_app/credpal_app.zip)
 
 ## Screenshot
 
