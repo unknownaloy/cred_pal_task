@@ -16,6 +16,12 @@ UI-focused Implementation
 https://github.com/unknownaloy/cred_pal_task.git
 ```
 
+- Navigate to the directory
+
+```git
+cd cred_pal_task
+```
+
 - Open the project in your preferred code editor.
 - Install the app's dependencies:
 
