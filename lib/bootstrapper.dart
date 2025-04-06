@@ -1,4 +1,5 @@
 import 'dart:async' show Future;
+import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart'
     show LicenseEntryWithLineBreaks, LicenseRegistry;
 import 'package:flutter/material.dart';
@@ -26,10 +27,12 @@ class AppBootstrapper {
     );
 
     SystemChrome.setSystemUIOverlayStyle(
-      const SystemUiOverlayStyle(
+      SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
-        statusBarBrightness: Brightness.dark,
-        statusBarIconBrightness: Brightness.dark,
+        statusBarBrightness:
+            Platform.isIOS ? Brightness.light : Brightness.dark,
+        statusBarIconBrightness:
+            Platform.isAndroid ? Brightness.dark : Brightness.light,
       ),
     );
 
