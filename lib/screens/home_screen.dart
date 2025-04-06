@@ -1,5 +1,6 @@
 import 'package:cred_pal_task/core/resources/color_res.dart';
 import 'package:cred_pal_task/data/dummy_data.dart';
+import 'package:cred_pal_task/widgets/home_header_ui.dart';
 import 'package:cred_pal_task/widgets/item_card_ui.dart';
 import 'package:cred_pal_task/widgets/merchant_avatar_ui.dart';
 import 'package:cred_pal_task/widgets/persistent_header_ui.dart';
@@ -20,8 +21,14 @@ class HomeScreen extends StatelessWidget {
         body: SafeArea(
           child: CustomScrollView(
             slivers: [
+              const SliverAppBar(
+                expandedHeight: 189,
+                collapsedHeight: 189,
+                backgroundColor: AppColor.purple20,
+                flexibleSpace: HomeHeaderUi(),
+              ),
               const SliverPersistentHeader(
-                floating: true,
+                pinned: true,
                 delegate: PersistentHeaderUi(
                   height: 76,
                   child: Padding(

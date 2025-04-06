@@ -11,10 +11,12 @@ class AppColor {
 
   static const deepBlue10 = Color(0xff33334D);
   static const deepBlue20 = Color(0xff000065);
+  static const deepBlue30 = Color(0xff20294A);
 
   static const red10 = Color(0xffFE2B5E);
 
   static const purple10 = Color(0xff3F4195);
+  static const purple20 = Color(0xffD0DAFF);
 
   static const black10 = Color(0xff1A1A1A);
 
