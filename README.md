@@ -6,7 +6,7 @@ UI-focused Implementation
 
 - Ensure you have the Flutter SDK installed on your machine. You can download it from [here](https://docs.flutter.dev/get-started/install)
 - Ensure you have an IDE installed, such as [Android Studio](https://developer.android.com/studio), [Visual Studio Code](https://code.visualstudio.com/download) or [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
-- Flutter version `>=3.29.0 <3.29.2`
+- Flutter version `>=3.29.0 <=3.29.2`
 
 ## Getting Started
 
@@ -21,6 +21,12 @@ UI-focused Implementation
 - Replaced unlicensed 'Avenir' with 'Roboto' for currency-related text to ensure legal compliance while maintaining readability
 - Pinned the search bar during scroll, prioritizing user access.
 - Enabled mouse pointer interactions for "Activate Credit," "View all," and the app bar info icon on the web.
+
+## Download App
+
+[Download CredPal Task App](https://github.com/unknownaloy/cred_pal_task/raw/master/credpal_app/credpal_app.zip)
+
+## Screenshot
 
 <a href="https://drive.google.com/uc?export=view&id=1yHPAwHZiTez6IlOPZ_XL9ioNQc-Dos0G"><img alt="android screenshot" src="https://drive.google.com/uc?export=view&id=1yHPAwHZiTez6IlOPZ_XL9ioNQc-Dos0G" style="height: 640px" title="Click to enlarge picture" />
 
