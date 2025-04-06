@@ -24,4 +24,8 @@ UI-focused Implementation
 
 <a href="https://drive.google.com/uc?export=view&id=1yHPAwHZiTez6IlOPZ_XL9ioNQc-Dos0G"><img alt="android screenshot" src="https://drive.google.com/uc?export=view&id=1yHPAwHZiTez6IlOPZ_XL9ioNQc-Dos0G" style="height: 640px" title="Click to enlarge picture" />
 
-[![Screenshot of the login screen](https://drive.google.com/uc?export=view&id=1osb3CmeRpLYdlVVDczpSH7SaK1DwcasR "Click to enlarge picture")](https://drive.google.com/uc?export=view&id=1osb3CmeRpLYdlVVDczpSH7SaK1DwcasR)
+<a href="https://drive.google.com/uc?export=view&id=1ZXEinnSDBjhAqpb0nCkrP0qpthSfX_O5"><img alt="ios screenshot" src="https://drive.google.com/uc?export=view&id=1ZXEinnSDBjhAqpb0nCkrP0qpthSfX_O5" style="height: 640px" title="Click to enlarge picture" />
+
+<a href="https://drive.google.com/uc?export=view&id=1dYE_TT8Ec0KD8fYNCXR0G7Op9MRN94LF"><img alt="ipad screenshot" src="https://drive.google.com/uc?export=view&id=1dYE_TT8Ec0KD8fYNCXR0G7Op9MRN94LF" style="height: 640px" title="Click to enlarge picture" />
+
+<a href="https://drive.google.com/uc?export=view&id=1FrtJr0x126hvk98udcqeQYIdO-wUkUox"><img alt="web screenshot" src="https://drive.google.com/uc?export=view&id=1FrtJr0x126hvk98udcqeQYIdO-wUkUox" style="height: 640px" title="Click to enlarge picture" />
