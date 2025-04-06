@@ -22,4 +22,6 @@ UI-focused Implementation
 - Pinned the search bar during scroll, prioritizing user access.
 - Enabled mouse pointer interactions for "Activate Credit," "View all," and the app bar info icon on the web.
 
-<a href="https://drive.google.com/uc?export=view&id=1yHPAwHZiTez6IlOPZ_XL9ioNQc-Dos0G"><img alt="android screenshot" src="https://drive.google.com/uc?export=view&id=1osb3CmeRpLYdlVVDczpSH7SaK1DwcasR" style="height: 640px" title="Click to enlarge picture" />
+<a href="https://drive.google.com/uc?export=view&id=1yHPAwHZiTez6IlOPZ_XL9ioNQc-Dos0G"><img alt="android screenshot" src="https://drive.google.com/uc?export=view&id=1yHPAwHZiTez6IlOPZ_XL9ioNQc-Dos0G" style="height: 640px" title="Click to enlarge picture" />
+
+[![Screenshot of the login screen](https://drive.google.com/uc?export=view&id=1osb3CmeRpLYdlVVDczpSH7SaK1DwcasR "Click to enlarge picture")](https://drive.google.com/uc?export=view&id=1osb3CmeRpLYdlVVDczpSH7SaK1DwcasR)
