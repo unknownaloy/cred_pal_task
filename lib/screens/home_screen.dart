@@ -64,6 +64,64 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                     ),
+
+                    const SizedBox(height: 17),
+
+                    Expanded(
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                          vertical: 33,
+                          horizontal: 20,
+                        ),
+                        color: Colors.white,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            const Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  'Featured Merchants',
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w900,
+                                    color: AppColor.deepBlue10,
+                                  ),
+                                ),
+                                Text(
+                                  'View all',
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    color: AppColor.blue10,
+                                  ),
+                                ),
+                              ],
+                            ),
+
+                            const SizedBox(height: 37),
+
+                            Center(
+                              child: Wrap(
+                                spacing: 30,
+                                runSpacing: 51,
+
+                                children: List.generate(
+                                  10,
+                                  (index) => Container(
+                                    height: 60,
+                                    width: 60,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: AppColor.lavenderBlue30,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),

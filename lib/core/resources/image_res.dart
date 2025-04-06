@@ -7,3 +7,14 @@ const rollTwoBadge1 = 'assets/pngs/roll_two_badge1.png';
 const rollTwoItem2 = 'assets/pngs/roll_two_item2.png';
 const rollTwoBadge2 = 'assets/pngs/roll_two_badge2.png';
 const rollTwoItem3 = 'assets/pngs/roll_two_item3.png';
+
+const merchant1Logo = 'assets/jpegs/merchant1_logo.jpeg';
+const merchant2Img = 'assets/pngs/merchant2.png';
+const merchant3Img = 'assets/pngs/merchant3.png';
+const merchant4Logo = 'assets/pngs/merchant4_logo.png';
+const merchant5Img = 'assets/pngs/merchant5.png';
+const merchant6Logo = 'assets/pngs/merchant6_logo.png';
+const merchant7Img = 'assets/pngs/merchant7.png';
+const merchant8Logo = 'assets/pngs/merchant8_logo.png';
+const merchant9Img = 'assets/pngs/merchant9.png';
+const merchant10Logo = 'assets/pngs/merchant10_logo.png';

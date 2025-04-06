@@ -7,4 +7,7 @@ class AppColor {
   static const lavenderBlue40 = Color(0xffB3B3CC);
 
   static const blue10 = Color(0xff274FED);
+
+  static const deepBlue10 = Color(0xff33334D);
+  static const deepBlue20 = Color(0xff000065);
 }
