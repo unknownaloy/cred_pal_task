@@ -1,6 +1,7 @@
 import 'package:cred_pal_task/core/resources/color_res.dart';
 import 'package:cred_pal_task/data/dummy_data.dart';
 import 'package:cred_pal_task/widgets/item_card_ui.dart';
+import 'package:cred_pal_task/widgets/merchant_avatar_ui.dart';
 import 'package:cred_pal_task/widgets/persistent_header_ui.dart';
 import 'package:cred_pal_task/widgets/search_header_ui.dart';
 import 'package:flutter/material.dart';
@@ -102,18 +103,17 @@ class HomeScreen extends StatelessWidget {
 
                             Center(
                               child: Wrap(
-                                spacing: 30,
+                                spacing: 10,
                                 runSpacing: 51,
-
                                 children: List.generate(
-                                  10,
-                                  (index) => Container(
-                                    height: 60,
-                                    width: 60,
-                                    decoration: const BoxDecoration(
-                                      shape: BoxShape.circle,
-                                      color: AppColor.lavenderBlue30,
-                                    ),
+                                  merchantsList.length,
+                                  (index) => Builder(
+                                    builder: (context) {
+                                      final merchant = merchantsList[index];
+                                      return MerchantAvatarUi(
+                                        merchant: merchant,
+                                      );
+                                    },
                                   ),
                                 ),
                               ),
