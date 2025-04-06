@@ -1,9 +1,8 @@
 import 'package:cred_pal_task/core/resources/color_res.dart';
-import 'package:cred_pal_task/core/resources/typography_res.dart';
 import 'package:cred_pal_task/data/dummy_data.dart';
 import 'package:cred_pal_task/widgets/home_header_ui.dart';
 import 'package:cred_pal_task/widgets/item_card_ui.dart';
-import 'package:cred_pal_task/widgets/merchant_avatar_ui.dart';
+import 'package:cred_pal_task/widgets/merchant_feed_ui.dart';
 import 'package:cred_pal_task/widgets/persistent_header_ui.dart';
 import 'package:cred_pal_task/widgets/search_header_ui.dart';
 import 'package:flutter/material.dart';
@@ -76,60 +75,7 @@ class HomeScreen extends StatelessWidget {
 
                     const SizedBox(height: 17),
 
-                    Expanded(
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                          vertical: 33,
-                          horizontal: 20,
-                        ),
-                        color: Colors.white,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: [
-                            const Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  'Featured Merchants',
-                                  style: TextStyle(
-                                    fontSize: 16,
-                                    fontFamily: fontBlack,
-                                    color: AppColor.deepBlue10,
-                                  ),
-                                ),
-                                Text(
-                                  'View all',
-                                  style: TextStyle(
-                                    fontSize: 12,
-                                    color: AppColor.blue10,
-                                  ),
-                                ),
-                              ],
-                            ),
-
-                            const SizedBox(height: 37),
-
-                            Center(
-                              child: Wrap(
-                                spacing: 10,
-                                runSpacing: 51,
-                                children: List.generate(
-                                  merchantsList.length,
-                                  (index) => Builder(
-                                    builder: (context) {
-                                      final merchant = merchantsList[index];
-                                      return MerchantAvatarUi(
-                                        merchant: merchant,
-                                      );
-                                    },
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
+                    const Expanded(child: MerchantFeedUi()),
                   ],
                 ),
               ),

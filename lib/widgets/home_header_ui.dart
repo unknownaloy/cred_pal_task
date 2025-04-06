@@ -30,7 +30,10 @@ class HomeHeaderUi extends StatelessWidget {
               SizedBox(width: 7),
               Padding(
                 padding: EdgeInsets.only(bottom: 12),
-                child: SvgIconUi(alertIcon),
+                child: MouseRegion(
+                  cursor: SystemMouseCursors.click,
+                  child: SvgIconUi(alertIcon),
+                ),
               ),
             ],
           ),
@@ -42,29 +45,29 @@ class HomeHeaderUi extends StatelessWidget {
             children: [
               const Text(
                 'Shopping Limit ₦0',
-                style: TextStyle(
-                  fontSize: 12,
-                  color: AppColor.deepBlue30,
-                ),
+                style: TextStyle(fontSize: 12, color: AppColor.deepBlue30),
               ),
               const SizedBox(height: 10),
 
-              Container(
-                alignment: Alignment.center,
-                padding: const EdgeInsets.symmetric(
-                  vertical: 8,
-                  horizontal: 16,
-                ),
-                decoration: const BoxDecoration(
-                  color: AppColor.blue10,
-                  borderRadius: BorderRadius.all(Radius.circular(4)),
-                ),
-                child: const Text(
-                  'Activate Credit',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 13,
-                    fontFamily: fontBold,
+              MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: Container(
+                  alignment: Alignment.center,
+                  padding: const EdgeInsets.symmetric(
+                    vertical: 8,
+                    horizontal: 16,
+                  ),
+                  decoration: const BoxDecoration(
+                    color: AppColor.blue10,
+                    borderRadius: BorderRadius.all(Radius.circular(4)),
+                  ),
+                  child: const Text(
+                    'Activate Credit',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 13,
+                      fontFamily: fontBold,
+                    ),
                   ),
                 ),
               ),
