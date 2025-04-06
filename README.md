@@ -10,11 +10,25 @@ UI-focused Implementation
 
 ## Getting Started
 
-- Clone this repository to your local machine using `https://github.com/unknownaloy/cred_pal_task.git`
+- Clone this repository to your local machine:
+
+```git
+https://github.com/unknownaloy/cred_pal_task.git
+```
+
 - Open the project in your preferred code editor.
-- Run `flutter pub get` to install the app's dependencies.
+- Install the app's dependencies:
+
+```dart
+flutter pub get
+```
+
 - Connect a device, an android emulator, ios simulator or web (e.g. Chrome).
-- Run `flutter run` to start the app.
+- Run the app:
+
+```dart
+flutter run
+```
 
 ## Assumptions / Adjustments
 
