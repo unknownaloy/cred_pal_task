@@ -1,5 +1,6 @@
 import 'package:cred_pal_task/core/resources/color_res.dart';
 import 'package:cred_pal_task/core/resources/icon_res.dart' show alertIcon;
+import 'package:cred_pal_task/core/resources/typography_res.dart';
 import 'package:cred_pal_task/widgets/svg_icon_ui.dart';
 import 'package:flutter/material.dart';
 
@@ -22,13 +23,13 @@ class HomeHeaderUi extends StatelessWidget {
                 'Pay later\neverywhere',
                 style: TextStyle(
                   fontSize: 28,
-                  fontWeight: FontWeight.w900,
                   color: AppColor.black10,
+                  fontFamily: fontBlack,
                 ),
               ),
               SizedBox(width: 7),
               Padding(
-                padding: EdgeInsets.only(bottom: 8),
+                padding: EdgeInsets.only(bottom: 12),
                 child: SvgIconUi(alertIcon),
               ),
             ],
@@ -41,7 +42,10 @@ class HomeHeaderUi extends StatelessWidget {
             children: [
               const Text(
                 'Shopping Limit ₦0',
-                style: TextStyle(fontSize: 12, color: AppColor.deepBlue30),
+                style: TextStyle(
+                  fontSize: 12,
+                  color: AppColor.deepBlue30,
+                ),
               ),
               const SizedBox(height: 10),
 
@@ -60,7 +64,7 @@ class HomeHeaderUi extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 13,
-                    fontWeight: FontWeight.w700,
+                    fontFamily: fontBold,
                   ),
                 ),
               ),

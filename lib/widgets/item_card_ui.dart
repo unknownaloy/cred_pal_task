@@ -1,6 +1,6 @@
 import 'package:cred_pal_task/core/extensions/color_extensions.dart';
 import 'package:cred_pal_task/core/resources/color_res.dart';
-import 'package:cred_pal_task/core/resources/image_res.dart';
+import 'package:cred_pal_task/core/resources/typography_res.dart';
 import 'package:cred_pal_task/data/model/item_dto.dart';
 import 'package:cred_pal_task/util/currency_util.dart';
 import 'package:flutter/material.dart';
@@ -49,7 +49,7 @@ class ItemCardUi extends StatelessWidget {
                         item.itemName,
                         style: const TextStyle(
                           fontSize: 14,
-                          fontWeight: FontWeight.w800,
+                          fontFamily: fontVeryBold,
                         ),
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
@@ -63,7 +63,7 @@ class ItemCardUi extends StatelessWidget {
                           text: CurrencyUtil.formatCurrency(item.itemPrice),
                           style: const TextStyle(
                             fontSize: 14,
-                            fontWeight: FontWeight.w800,
+                            fontFamily: fontVeryBold,
                             color: AppColor.blue10,
                           ),
                           children: <TextSpan>[
@@ -72,7 +72,7 @@ class ItemCardUi extends StatelessWidget {
                               text: '${item.itemOriginalPrice}',
                               style: const TextStyle(
                                 fontSize: 12,
-                                fontWeight: FontWeight.w500,
+                                fontFamily: fontMedium,
                                 color: AppColor.lavenderBlue40,
                                 decoration: TextDecoration.lineThrough,
                               ),
@@ -116,7 +116,7 @@ class ItemCardUi extends StatelessWidget {
                             item.badgeData?.title ?? '',
                             style: const TextStyle(
                               fontSize: 12,
-                              fontWeight: FontWeight.w500,
+                              fontFamily: fontMedium,
                               color: AppColor.lavenderBlue40,
                             ),
                           ),
@@ -125,7 +125,7 @@ class ItemCardUi extends StatelessWidget {
                             item.badgeData?.subtitle ?? '',
                             style: const TextStyle(
                               fontSize: 14,
-                              fontWeight: FontWeight.w800,
+                              fontFamily: fontVeryBold,
                               color: AppColor.blue10,
                             ),
                           ),

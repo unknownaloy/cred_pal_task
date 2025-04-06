@@ -27,3 +27,24 @@ flutter:
     - assets/svgs/
     - assets/pngs/
     - assets/jpegs/
+
+  fonts:
+    - family: AvenirLTStd-Light
+      fonts:
+        - asset: assets/fonts/avenir/AvenirLTStd-Light.otf
+
+    - family: AvenirLTStd-Medium
+      fonts:
+        - asset: assets/fonts/avenir/AvenirLTStd-Medium.otf
+
+    - family: AvenirLTStd-Heavy
+      fonts:
+        - asset: assets/fonts/avenir/AvenirLTStd-Heavy.otf
+
+    - family: AvenirLTStd-Roman
+      fonts:
+        - asset: assets/fonts/avenir/AvenirLTStd-Roman.otf
+
+    - family: AvenirLTStd-Black
+      fonts:
+        - asset: assets/fonts/avenir/AvenirLTStd-Black.otf

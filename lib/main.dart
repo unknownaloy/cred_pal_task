@@ -1,3 +1,4 @@
+import 'package:cred_pal_task/core/resources/typography_res.dart';
 import 'package:cred_pal_task/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        fontFamily: fontLight,
       ),
       home: const HomeScreen(),
     );

@@ -1,4 +1,5 @@
 import 'package:cred_pal_task/core/resources/color_res.dart';
+import 'package:cred_pal_task/core/resources/typography_res.dart';
 import 'package:cred_pal_task/data/model/merchant_dto.dart';
 import 'package:flutter/material.dart';
 
@@ -70,7 +71,7 @@ class MerchantAvatarUi extends StatelessWidget {
             merchant.merchantName,
             style: const TextStyle(
               fontSize: 12,
-              fontWeight: FontWeight.w500,
+              fontFamily: fontMedium,
               color: AppColor.black10,
             ),
             textAlign: TextAlign.center,
