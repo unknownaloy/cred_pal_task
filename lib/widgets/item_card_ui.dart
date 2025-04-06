@@ -63,7 +63,7 @@ class ItemCardUi extends StatelessWidget {
                           text: CurrencyUtil.formatCurrency(item.itemPrice),
                           style: const TextStyle(
                             fontSize: 14,
-                            fontFamily: fontVeryBold,
+                            fontFamily: robotoExtraBold,
                             color: AppColor.blue10,
                           ),
                           children: <TextSpan>[

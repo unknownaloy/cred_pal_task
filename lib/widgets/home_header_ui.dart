@@ -45,7 +45,11 @@ class HomeHeaderUi extends StatelessWidget {
             children: [
               const Text(
                 'Shopping Limit ₦0',
-                style: TextStyle(fontSize: 12, color: AppColor.deepBlue30),
+                style: TextStyle(
+                  fontSize: 12,
+                  color: AppColor.deepBlue30,
+                  fontFamily: robotoMedium,
+                ),
               ),
               const SizedBox(height: 10),
 
