@@ -48,3 +48,11 @@ flutter:
     - family: AvenirLTStd-Black
       fonts:
         - asset: assets/fonts/avenir/AvenirLTStd-Black.otf
+
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+
+    - family: RobotoExtraBold
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-ExtraBold.ttf
